@@ -1,0 +1,39 @@
+.card {
+  border: 1px double grey;
+  background-color: wheat;
+  border: 1px double groove;
+  position: relative;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 10px 10px 10px;
+  height: 25px;
+}
+
+div.cards {
+  text-align: center;
+
+  margin: 0px 100px 100px 100px;
+  padding: 0px 75px 75px 75px;
+}
+
+.card-selected {
+  border: 1px double rgb(255, 0, 0);
+  background-color: wheat;
+  position: relative;
+  font-weight: bold;
+  font-size: 23px;
+  margin: 10px 10px 10px 10px;
+  height: 25px;
+}
+
+div.results {
+  text-align: center;
+  margin: 0px 100px 100px 100px;
+  padding: 75px 75px 75px 75px;
+  background-color: cornflowerblue;
+}
+
+div.result {
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}

@@ -1,25 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Game from './components/game';
+
+
+
+const pairs = [
+  {
+    term: "Dog",
+    definition:"chó",
+  },
+  {
+    term: "Cat",
+    definition:"mèo",
+  },
+  {
+    term: "Banana",
+    definition:"quả chuối",
+  },  {
+    term: "Book",
+    definition:"quyển sách",
+  },
+  {
+    term: "Ball",
+    definition:"quả bóng",
+  },
+  {
+    term: "Lemon",
+    definition:"quả cam",
+  },
+  {
+    term: "Monkey",
+    definition:"Con khỉ",
+  }
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Game pairs={pairs}></Game>
   );
 }
 
